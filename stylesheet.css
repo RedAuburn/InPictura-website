@@ -1,0 +1,10 @@
+body{
+background: rgb(0,68,93);
+background: linear-gradient(90deg, rgba(0,68,93,1) 0%, rgba(10,76,89,1) 100%);
+}
+
+h1 {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #eeeeee;
+  /*margin-left: 20px;*/
+}
