@@ -16,3 +16,14 @@ h1 {
   font-size: 75px;
   /*margin-left: 20px;*/
 }
+.btn{
+  border: none;
+  padding: 5px 5px;
+  font-size: 16px;
+  font-family: 'Open Sans', serif;
+  cursor: pointer;
+  background-color: #EEEEEE;
+}
+.btn:active{
+  background-color: rgba(238, 238, 238, 0.9);
+}
