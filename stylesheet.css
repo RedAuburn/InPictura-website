@@ -16,7 +16,7 @@ h1 /*title*/
 {
   font-family: 'Josefin Sans', serif;
   font-style: italic;
-  font-weight: 700;
+  font-weight: 300;
   font-size: calc(45px + (105 - 45) * ((100vw - 300px) / (1600 - 300)));
   letter-spacing: 6px;
   color: #eeeeee;
