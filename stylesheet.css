@@ -57,8 +57,7 @@ p1 /*text about game*/
 }
 .nav
 {
-  border-radius: 1000px;
-  width:90%;
+  width:100%;
   padding: 1%;
   background-color: rgba(238, 238, 238,1);
 }
@@ -69,6 +68,7 @@ p1 /*text about game*/
   font-family: 'Open Sans';
   font-weight: 400;
   color: rgba(32, 32, 32,0.8);
+  background-color: #eeeeee;
 }
 .navlmnt:hover
 {
@@ -78,4 +78,18 @@ p1 /*text about game*/
   color: #eeeeee;
   background-color: #202020;
   cursor: pointer;
+}
+
+.fadein
+{
+  animation: fadeIn ease 3s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
 }
