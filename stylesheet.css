@@ -9,14 +9,14 @@ html
 
 body
 {
-  background: linear-gradient(137deg, #043c61 0%, #0c2744 100%);
+  background: linear-gradient(137deg, #043c61 0%, #071729 100%);
 }
 
 h1 /*title*/
 {
   font-family: 'Josefin Sans', serif;
   font-style: italic;
-  font-weight: 400;
+  font-weight: 700;
   font-size: calc(45px + (105 - 45) * ((100vw - 300px) / (1600 - 300)));
   letter-spacing: 6px;
   color: #eeeeee;
