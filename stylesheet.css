@@ -1,9 +1,8 @@
 
 html
 {
-  height: 100%;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  height:100%;
+  background-attachment: scroll;
 }
 
 body
@@ -32,7 +31,7 @@ button
   font-family: 'Open Sans';
   font-style: normal;
   font-size: 14px;
-  color: #202020;
+  color: rgba(32, 32, 32,0.8);
   cursor: pointer;
   background-color: #EEEEEE;
   margin-top: 20px;
@@ -57,23 +56,26 @@ p1 /*text about game*/
 }
 .nav
 {
-  margin-top: -10px;
+  align-content: stretch;
+  border-radius: 1000px;
+  width:90%;
   padding: 10px;
-  background-color: rgba(238, 238, 238,0.1);
+  background-color: rgba(238, 238, 238,1);
 }
 .navlmnt
 {
+  border-radius: 180px;
   padding: 5px 10px;
   font-family: 'Open Sans';
   font-weight: 400;
-  color: #eeeeee;
-  background-color: rgba(238, 238, 238,0.1);
+  color: rgba(32, 32, 32,0.8);
+  background-color: rgba(238, 238, 238,1);
 }
 .navlmnt:hover
 {
   padding: 5px 10px;
   font-family: 'Open Sans';
   font-weight: 400;
-  color: black;
-  background-color: #eeeeee;
+  color: #eeeeee;
+  background-color: #202020;
 }
