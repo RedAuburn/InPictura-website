@@ -1,9 +1,12 @@
+html{
+  min-height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
 body{
   background: rgb(8,77,126);
-  background: -moz-linear-gradient(63deg, rgba(8,77,126,1) 0%, rgba(1,18,25,1) 100%);
-  background: -webkit-linear-gradient(63deg, rgba(8,77,126,1) 0%, rgba(1,18,25,1) 100%);
-  background: linear-gradient(63deg, rgba(8,77,126,1) 0%, rgba(1,18,25,1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#084d7e",endColorstr="#011219",GradientType=1);
+  background: linear-gradient(137deg, #043c61 0%, #0c2744 100%);
 }
 
 h1 {
