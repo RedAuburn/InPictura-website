@@ -1,8 +1,8 @@
-@import url ("https://fonts.googleapis.com/css?family=Josefin+Sans|Open+Sans");
+/*@import url ("https://fonts.googleapis.com/css?family=Josefin+Sans|Open+Sans");*/
 
 html
 {
-  min-height: 100%;
+  height: 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
@@ -12,33 +12,27 @@ body
   background: linear-gradient(137deg, #043c61 0%, #0c2744 100%);
 }
 
-h1
+h1 /*title*/
 {
   font-family: 'Josefin Sans', serif;
   font-style: italic;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 75px;
-  letter-spacing: 3px;
+  letter-spacing: 6px;
   color: #eeeeee;
-}
-
-p1
-{
-  text-align: center;
-  font-family: 'Open Sans', serif;
-  font-style: italic;
-  font-size: 17px;
-  color: #eeeeee;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .button1
 {
   border: none;
   border-radius: 10px;
-  padding: 5px 7px;
-  font-family: 'Open Sans', serif;
+  padding: 5px 10px;
+  margin-left: 20px;
+  font-family: 'Open Sans';
   font-style: normal;
-  font-size: 16px;
+  font-size: 14px;
   color: #202020;
   cursor: pointer;
   background-color: #EEEEEE;
@@ -52,4 +46,12 @@ p1
 .button1:active
 {
   background-color: rgba(238, 238, 238, 0.9);
+}
+
+p1 /*text about game*/
+{
+  text-align: center;
+  font-family: 'Open Sans';
+  font-size: 14px;
+  color: #eeeeee;
 }
