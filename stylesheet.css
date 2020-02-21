@@ -17,7 +17,7 @@ h1 /*title*/
   font-family: 'Josefin Sans', serif;
   font-style: italic;
   font-weight: 400;
-  font-size: 75px;
+  font-size: calc(45px + (105 - 45) * ((100vw - 300px) / (1600 - 300)));
   letter-spacing: 6px;
   color: #eeeeee;
   margin-top: 20px;
@@ -36,6 +36,7 @@ h1 /*title*/
   color: #202020;
   cursor: pointer;
   background-color: #EEEEEE;
+  margin-top: 20px;
 }
 
 .button1:hover
@@ -54,4 +55,12 @@ p1 /*text about game*/
   font-family: 'Open Sans';
   font-size: 14px;
   color: #eeeeee;
+}
+div2
+{
+  position: absolute;
+  bottom: 5px;
+  font-family: 'Open Sans';
+  font-size: 8px;
+  color: rgba(172, 175, 181,0.5);
 }
