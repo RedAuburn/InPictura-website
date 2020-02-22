@@ -16,7 +16,7 @@ h1 /*title*/
   font-family: 'Josefin Sans', serif;
   font-style: italic;
   font-weight: 300;
-  font-size: calc(100px + (200 - 100) * ((100vw - 300px) / (1600 - 300)));
+  font-size: calc(50px + (200 - 50) * ((100vw - 300px) / (1600 - 300)));
   letter-spacing: 6px;
   color: #eeeeee;
   margin-top: 20px;
@@ -82,7 +82,7 @@ p1 /*text about game*/
 
 .fadein
 {
-  animation: fadeIn ease 3s;
+  animation: fadeIn ease 5s;
 }
 
 @keyframes fadeIn {
