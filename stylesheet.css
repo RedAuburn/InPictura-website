@@ -4,25 +4,25 @@ html
 {
   height:100%;
   background-attachment: scroll;
+  background: linear-gradient(140deg, #074d7a 0%, #0a233d 100%);
+  overflow-x: hidden;
 }
 
-body
+h1/*title*/
 {
-  background: linear-gradient(140deg, #043c61 0%, #0a233d 100%);
-}
-
-h1 /*title*/
-{
+  margin-bottom: 5%;
+  margin-top: 0;
   font-family: 'Josefin Sans', serif;
   font-style: italic;
   font-weight: 300;
-  font-size: calc(50px + (200 - 50) * ((100vw - 300px) / (1600 - 300)));
+  font-size: calc(100px + (150 - 100) * ((100vw - 300px) / (1600 - 300)));
   letter-spacing: 6px;
   color: #eeeeee;
-  margin-top: 20px;
-  margin-bottom: 20px;
 }
-
+body
+{
+  margin: 0 auto;
+}
 button
 {
   border: none;
@@ -35,7 +35,6 @@ button
   color: rgba(32, 32, 32,0.8);
   cursor: pointer;
   background-color: #EEEEEE;
-  margin-top: 20px;
 }
 
 button:hover
@@ -55,11 +54,21 @@ p1 /*text about game*/
   font-size: 14px;
   color: #eeeeee;
 }
+
 .nav
 {
+  float: left;
   width:100%;
-  padding: 1%;
+  padding: .4%;
+  margin-left: :0;
+  margin-top: :0;
   background-color: rgba(238, 238, 238,1);
+  margin-bottom: 4%;
+}
+.navfloat
+{
+  float: right;
+  margin-right: 1%;
 }
 .navlmnt
 {
@@ -67,7 +76,7 @@ p1 /*text about game*/
   padding: 5px 10px;
   font-family: 'Open Sans';
   font-weight: 400;
-  color: rgba(32, 32, 32,0.8);
+  color: rgba(32,32,32,0.8);
   background-color: #eeeeee;
 }
 .navlmnt:hover
@@ -76,20 +85,21 @@ p1 /*text about game*/
   font-family: 'Open Sans';
   font-weight: 400;
   color: #eeeeee;
-  background-color: #202020;
+  background-color: rgba(10, 35, 61,0.8);
   cursor: pointer;
+}
+
+.noselect
+{
+  user-select: none;
 }
 
 .fadein
 {
-  animation: fadeIn ease 5s;
+  animation: fadein ease 5s;
 }
 
-@keyframes fadeIn {
-  0% {
-    opacity:0;
-  }
-  100% {
-    opacity:1;
-  }
+@keyframes fadein {
+  0% {opacity:0;}
+  100% {opacity:1;}
 }
