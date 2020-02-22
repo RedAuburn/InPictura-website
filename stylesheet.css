@@ -23,29 +23,6 @@ body
 {
   margin: 0 auto;
 }
-button
-{
-  border: none;
-  border-radius: 1000px;
-  padding: 5px 10px;
-  margin-left: 20px;
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-size: 14px;
-  color: rgba(32, 32, 32,0.8);
-  cursor: pointer;
-  background-color: #EEEEEE;
-}
-
-button:hover
-{
-  background-color: rgba(238, 238, 238, 0.97);
-}
-
-button:active
-{
-  background-color: rgba(238, 238, 238, 0.9);
-}
 
 p1 /*text about game*/
 {
@@ -72,6 +49,8 @@ p1 /*text about game*/
   font-weight: 400;
   color: rgba(32,32,32,0.8);
   background-color: #eeeeee;
+  text-decoration:none;
+  padding: .28%
 }
 .navlmnt:hover
 {
@@ -87,7 +66,7 @@ p1 /*text about game*/
 
 .fadein
 {
-  animation: fadein ease 5s;
+  animation: fadein ease 1.5s;
 }
 
 @keyframes fadein {
