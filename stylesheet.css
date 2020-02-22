@@ -3,7 +3,7 @@
 html
 {
   height:100%;
-  background: url("images/noise.png"), linear-gradient(140deg, #043c61, #0a233d);
+  background: url("images/noise.png"), linear-gradient(140deg, #003f62, #063758, #09304d, #0a2843, #0a2139);
   background-attachment: scroll;
   overflow-x: hidden;
   overflow-y:auto;
