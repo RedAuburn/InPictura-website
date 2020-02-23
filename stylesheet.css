@@ -3,7 +3,7 @@
 html
 {
   height:100%;
-  background: url("images/noise.png"), linear-gradient(140deg, #003f62, #063758, #09304d, #0a2843, #0a2139);
+  background: url("images/noise.png"), linear-gradient(140deg, #003f62, #030c2e);
   background-attachment: scroll;
   overflow-x: hidden;
   overflow-y:auto;
@@ -21,8 +21,9 @@ h1/*title*/
   letter-spacing: 6px;
   color: #eeeeee;
 }
+
 h2{
-  margin-bottom: 10%;
+  margin-bottom: 0;
   margin-top: 0;
   font-family: 'Josefin Sans', serif;
   font-style: italic;
@@ -31,6 +32,7 @@ h2{
   letter-spacing: 6px;
   color: #eeeeee;
 }
+
 body
 {
   margin: 0 auto;
@@ -43,7 +45,11 @@ p1 /*text about game*/
   font-size: 100%;
   color: #eeeeee;
 }
-
+.bg
+{
+  position: absolute;
+  z-index:-1;
+}
 .nav
 {
   float: left;
@@ -59,11 +65,13 @@ p1 /*text about game*/
   border-radius: 180px;
   font-family: 'Open Sans';
   font-weight: 400;
+  font-size: 90%;
   color: rgba(32,32,32,0.8);
   background-color: #eeeeee;
   text-decoration:none;
-  padding: .28%
+  padding: .28%;
 }
+
 .feature
 {
   padding-bottom: 20px;
@@ -71,7 +79,7 @@ p1 /*text about game*/
   padding-left: 7px;
   padding-right: 7px;
   color: #eeeeee;
-  font-size: 120%;
+  font-size: 130%;
   font-style: italic;
   border-bottom-left-radius: 180px;
   border-bottom-right-radius: 180px;
@@ -99,7 +107,7 @@ p1 /*text about game*/
 
 .fadein
 {
-  animation: fadein 2s;
+  animation: fadein 1s;
 }
 
 @keyframes fadein {
