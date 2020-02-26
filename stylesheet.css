@@ -99,7 +99,11 @@ p1 /*text about game*/
   background-color: rgba(212, 50, 0,1);
 }
 
-
+.info
+{
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
 .noselect
 {
   user-select: none;
