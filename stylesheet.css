@@ -3,7 +3,7 @@
 html
 {
   height:100%;
-  background: url("images/noise.png"), linear-gradient(140deg, #003f62, #030c2e);
+  background: url("images/noise.png"), linear-gradient(140deg, #115062ff, #04242d);
   background-attachment: scroll;
   overflow-x: hidden;
   overflow-y:auto;
@@ -19,7 +19,7 @@ h1/*title*/
   font-weight: 300;
   font-size: calc(60px + (150 - 60) * ((100vw - 300px) / (1600 - 300)));
   letter-spacing: 6px;
-  color: #eeeeee;
+  color: #fbf9f8ff;
 }
 
 h2{
@@ -30,7 +30,7 @@ h2{
   font-weight: 300;
   font-size: 50px;
   letter-spacing: 6px;
-  color: #eeeeee;
+  color: #fbf9f8ff;
 }
 
 body
@@ -43,7 +43,7 @@ p1 /*text about game*/
   text-align: center;
   font-family: 'Open Sans';
   font-size: 100%;
-  color: #eeeeee;
+  color: #fbf9f8ff;
 }
 .bg
 {
@@ -67,7 +67,7 @@ p1 /*text about game*/
   font-weight: 400;
   font-size: 90%;
   color: rgba(32,32,32,0.8);
-  background-color: #eeeeee;
+  background-color: #fbf9f8ff;
   text-decoration:none;
   padding: .28%;
 }
@@ -78,19 +78,19 @@ p1 /*text about game*/
   padding-top: 10px;
   padding-left: 7px;
   padding-right: 7px;
-  color: #eeeeee;
+  color: #fbf9f8ff;
   font-size: 130%;
   font-style: italic;
   border-bottom-left-radius: 180px;
   border-bottom-right-radius: 180px;
   border-top-left-radius: 0px;
   border-top-right-radius: 0px;
-  background-color: #e04b00;
-}
+  background-color: #d74040ff;
+
 
 .navlmnt:hover
 {
-  color: #eeeeee;
+  color: #fbf9f8ff;
   background-color: rgba(10, 35, 61,0.8);
   cursor: pointer;
 }
