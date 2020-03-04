@@ -1,143 +1,172 @@
-/*Made by Harry Bond @fakeplantgames 2020*/
+/*Made by Harry Bond @corresbondent 2020*/
 
-html
-{
-  height:100vh;
-  width:100%;
-  background: url("images/noisenew.png"), linear-gradient(140deg, #033d62, #010e17);
-  background-attachment: scroll;
-  overflow-x: hidden;
-  overflow-y:auto;
-  scroll-behavior: smooth;
-}
+/*Main HTML Element things*/
+    html
+    {
+      height:100%;
+      width:100%;
+      margin:0;
+      background: url("images/noisenew.png"), linear-gradient(140deg, #033d62, #010e17);
+      background-attachment: scroll;
+      overflow-x: hidden;
+      overflow-y:auto;
+      scroll-behavior: smooth;
+    }
 
-h1/*title*/
-{
-  margin-bottom: 5%;
-  margin-top: 0;
-  font-family: 'Josefin Sans', serif;
-  font-style: italic;
-  font-weight: 300;
-  font-size: calc(60px + (150 - 60) * ((100vw - 300px) / (1600 - 300)));
-  letter-spacing: 6px;
-  color: #eeeeee;
-}
+    h1
+    {
+      margin-bottom: 5%;
+      margin-top: 0;
+      font-family: 'Josefin Sans', serif;
+      font-style: italic;
+      font-weight: 300;
+      font-size: calc(60px + (150 - 60) * ((100vw - 300px) / (1600 - 300)));
+      letter-spacing: 6px;
+      color: #eeeeee;
+    }
 
-h2{
-  margin-bottom: 0;
-  margin-top: 0;
-  font-family: 'Josefin Sans', serif;
-  font-style: italic;
-  font-weight: 300;
-  font-size: 50px;
-  letter-spacing: 6px;
-  color: #eeeeee;
-}
+    body
+    {
+      height:100%;
+      width:100vw;
+      margin: 0;
+    }
 
-body
-{
-  height:100%;
-  width:100vw;
-  margin: 0 0;
-}
+/*Nav Bar*/
+    .nav
+    {
+      float: left;
+      width:100%;
+      padding:0.35%;
+      background-color: #eeeeee;
+      margin-bottom: 4%;
+    }
 
-.socials
-{
-  margin: 0;
-  padding: .3%;
-  background-color: #eeeeee;
-  width:100vw;
-  position:fixed;
-  bottom:0;
-}
+    .navlmnt
+    {
+      font-size: 90%;
+      margin:1%;
+      border-radius: 180px;
+      font-family: 'Open Sans';
+      font-weight: 400;
+      font-size: 90%;
+      color: rgba(32,32,32,0.8);
+      text-decoration:none;
+      padding: .28%;
+    }
 
-.icon
-{
-  vertical-align: middle;
-  margin-left:1%;
-  margin-right:1%;
-  height: 22px;
-  filter: invert(27%) sepia(45%) saturate(6879%) hue-rotate(348deg) brightness(98%) contrast(71%);
-  /*https://codepen.io/sosuke/pen/Pjoqqp*/
-}
+    .feature
+    {
+      padding-bottom: 20px;
+      padding-top: 10px;
+      padding-left: 7px;
+      padding-right: 7px;
+      color: #eeeeee;
+      font-size: 130%;
+      font-style: italic;
+      border-bottom-left-radius: 180px;
+      border-bottom-right-radius: 180px;
+      border-top-left-radius: 0px;
+      border-top-right-radius: 0px;
+      background-color: #d74040ff;
+    }
 
-p1 /*text about game*/
-{
-  text-align: center;
-  font-family: 'Open Sans';
-  font-size: 100%;
-  color: #eeeeee;
-}
-.bg
-{
-  position: absolute;
-  z-index:-1;
-}
-.nav
-{
-  float: left;
-  width:100%;
-  padding:0.35%;
-  background-color: #eeeeee;
-  margin-bottom: 4%;
-}
-.navlmnt
-{
-  font-size: 90%;
-  margin:1%;
-  border-radius: 180px;
-  font-family: 'Open Sans';
-  font-weight: 400;
-  font-size: 90%;
-  color: rgba(32,32,32,0.8);
-  text-decoration:none;
-  padding: .28%;
-}
+    .navlmnt:hover
+    {
+      color: #eeeeee;
+      background-color: rgba(10, 35, 61,0.8);
+      cursor: pointer;
+    }
 
-.feature
-{
-  padding-bottom: 20px;
-  padding-top: 10px;
-  padding-left: 7px;
-  padding-right: 7px;
-  color: #eeeeee;
-  font-size: 130%;
-  font-style: italic;
-  border-bottom-left-radius: 180px;
-  border-bottom-right-radius: 180px;
-  border-top-left-radius: 0px;
-  border-top-right-radius: 0px;
-  background-color: #d74040ff;
-}
+    .feature:hover
+    {
+      background-color: rgba(212, 50, 0,1);
+    }
 
-.navlmnt:hover
-{
-  color: #eeeeee;
-  background-color: rgba(10, 35, 61,0.8);
-  cursor: pointer;
-}
 
-.feature:hover
-{
-  background-color: rgba(212, 50, 0,1);
-}
+/*Home Page*/
+    p1
+    {
+      text-align: center;
+      font-family: 'Open Sans';
+      font-size: 100%;
+      color: #eeeeee;
+    }
 
-.info
-{
-  padding-left: 10vw;
-  padding-right: 10vw;
-}
-.noselect
-{
-  user-select: none;
-}
+    .info
+    {
+      padding-left: 10vw;
+      padding-right: 10vw;
+    }
 
-.fadein
-{
-  animation: fadein 1s;
-}
+/*About Page*/
+    .personcontainer
+    {
 
-@keyframes fadein {
-  0% {opacity:0;}
-  100% {opacity:1;}
-}
+    }
+    .persontext
+    {
+      font-family:'Open Sans';
+      color:#eeeeee;
+      margin-top:0;
+    }
+    .persontitle
+    {
+      font-family:'Open Sans';
+      font-weight: 600;
+      font-style: italic;
+      font-size: 110%;
+      color:#eeeeee;
+      margin:0;
+    }
+    .abtimg
+    {
+      filter: drop-shadow(0 0 10px #00000030);
+      width:10vh;
+      float:center;
+    }
+
+/*Footer*/
+    .socials
+    {
+      margin: 0;
+      padding: .3%;
+      background-color: #eeeeee;
+      width:100vw;
+      position:fixed;
+      bottom:0;
+    }
+
+    .icon
+    {
+      vertical-align: middle;
+      margin-left:1%;
+      margin-right:1%;
+      height: 22px;
+      filter: invert(27%) sepia(45%) saturate(6879%) hue-rotate(348deg) brightness(98%) contrast(71%);
+      /*https://codepen.io/sosuke/pen/Pjoqqp*/
+    }
+
+
+/*Global Items*/
+    .noselect
+    {
+      user-select: none;
+    }
+
+    .bg
+    {
+      position: absolute;
+      z-index:-1;
+    }
+
+/*Animations*/
+    .fadein
+    {
+      animation: fadein 1s;
+    }
+
+    @keyframes fadein {
+      0% {opacity:0;}
+      100% {opacity:1;}
+    }
