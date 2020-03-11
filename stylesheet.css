@@ -40,6 +40,8 @@
       padding:0.35%;
       background-color: #eeeeee;
       margin-bottom: 4%;
+      display: flex;
+      justify-content:center;
     }
 
     .navlmnt
@@ -53,6 +55,12 @@
       color: rgba(32,32,32,0.8);
       text-decoration:none;
       padding: .28%;
+      flex: 1;
+
+    }
+    .navlmntcontainer
+    {
+
     }
 
     .feature
@@ -104,12 +112,14 @@
     {
 
     }
+
     .persontext
     {
       font-family:'Open Sans';
       color:#eeeeee;
       margin-top:0;
     }
+
     .persontitle
     {
       font-family:'Open Sans';
@@ -147,6 +157,10 @@
       /*https://codepen.io/sosuke/pen/Pjoqqp*/
     }
 
+    a
+    {
+      text-decoration: none;
+    }
 
 /*Global Items*/
     .noselect
