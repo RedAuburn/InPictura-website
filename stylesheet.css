@@ -150,12 +150,16 @@
 
     .icon
     {
+      width: 10%;
+      height: 10%;
+      viewbox auto;
+      margin:0;
       vertical-align: middle;
       margin-left:1%;
       margin-right:1%;
-      height: 22px;
       filter: invert(27%) sepia(45%) saturate(6879%) hue-rotate(348deg) brightness(98%) contrast(71%);
       /*https://codepen.io/sosuke/pen/Pjoqqp*/
+
     }
 
     a
