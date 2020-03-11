@@ -40,14 +40,13 @@
       padding:0.35%;
       background-color: #eeeeee;
       margin-bottom: 4%;
-      display: flex;
-      justify-content:center;
     }
 
     .navlmnt
     {
       font-size: 90%;
       margin:1%;
+      width: 1000px;
       border-radius: 180px;
       font-family: 'Open Sans';
       font-weight: 400;
@@ -60,7 +59,9 @@
     }
     .navlmntcontainer
     {
-
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
     }
 
     .feature
