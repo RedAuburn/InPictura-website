@@ -6,7 +6,7 @@
       height:100%;
       width:100%;
       margin:0;
-      background: url("images/noisenew.png"), linear-gradient(140deg, #033d62, #010e17);
+      background: url("images/noisenew.png"), linear-gradient(180deg, #0d3347, #0f5e76);
       background-repeat: repeat;
       background-attachment: fixed;
       overflow-x: hidden;
@@ -20,7 +20,7 @@
       margin-top: 0;
       font-family: 'Josefin Sans', serif;
       font-style: italic;
-      font-weight: 300;
+      font-weight: 200;
       font-size: calc(60px + (150 - 60) * ((100vw - 300px) / (1600 - 300)));
       letter-spacing: 6px;
       color: #eeeeee;
@@ -60,9 +60,8 @@
     }
     .navlmntcontainer
     {
-      display: flex;
-      align-items: center;
-      justify-content: space-evenly;
+      display: table;
+      table-layout: fixed;
     }
 
     .feature
