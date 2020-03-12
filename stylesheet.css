@@ -29,13 +29,14 @@
     h2
     {
       margin:0;
-      padding-top: 50px;
+      margin-top: 50px;
       font-family: 'Josefin Sans', sans-serif;
       font-weight: 200;
       font-style: italic;
       color: #eeeeee;
       font-size: calc(30px + (60 - 30) * ((100vw - 300px) / (1600 - 300)));
       text-align: center;
+      z-index: -1;
     }
 
     p2
@@ -66,7 +67,6 @@
 /*Nav Bar*/
     .nav
     {
-      float: left;
       width:100%;
       padding:0.35%;
       background-color: #eeeeee;
@@ -90,8 +90,7 @@
     }
     .navlmntcontainer
     {
-      display: table;
-      table-layout: fixed;
+      z-index: 101;
     }
 
     .feature
